@@ -1,0 +1,49 @@
+datasets:
+- dataset_id: test2
+  structures:
+  - id:   0
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun.xml
+  - id:   1
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_010.xml
+  - id:   2
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_010.xml
+  - id:   3
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_009.xml
+  - id:   4
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_009.xml
+  - id:   5
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_008.xml
+  - id:   6
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_008.xml
+  - id:   7
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_007.xml
+  - id:   8
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_007.xml
+  - id:   9
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_006.xml
+  - id:   10
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_006.xml
+  - id:   11
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_005.xml
+  - id:   12
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_004.xml
+  - id:   13
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_004.xml
+  - id:   14
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_003.xml
+  - id:   15
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_003.xml
+  - id:   16
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_002.xml
+  - id:   17
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_002.xml
+  - id:   18
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_001.xml
+  - id:   19
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_001.xml
+  - id:   20
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun.xml
+  - id:   21
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun.xml
+  - id:   22
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_010.xml
