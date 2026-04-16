@@ -1,0 +1,34 @@
+今の実装をビルドして検証してください。
+
+作業:
+1. `build/build_descriptor2_R.py` で `descriptor_all2_R` をビルド
+2. C++ / pybind / NumPy dtype / import / linker エラーを修正
+3. `tests/test_all2_R.py` を作成
+
+`tests/test_all2_R.py` の要件:
+- POSCAR を読む
+- `.npz` から係数を読む
+- 旧経路:
+  - 旧モジュールで descriptor / force features を計算
+  - Python 側で係数を掛けて energy / force を得る
+- 新経路:
+  - `descriptor_all2_R` に `coef_py` を直接渡して energy / force を得る
+- 比較:
+  - energy
+  - force
+  - shape
+  - max abs error
+  - RMSE
+　- 速度比較は、少なくとも「特徴量計算から最終 energy/force 出力まで」の end-to-end 推論時間で行ってください。
+追加要件:
+- 可能なら `infer_Cul_F2_R.py` の旧推論結果とも比較する
+- 参照パスのずれがあれば、必要最小限だけ修正する
+- コンパイル成功だけで終わらず、数値一致まで確認する
+- 不一致がある場合は、feature ordering / sign / force index layout のどこが怪しいかを明示する
+
+最後に報告:
+- ビルド時に修正した点
+- テスト結果
+- 数値一致状況
+- 数値比較に加えて、旧経路と新経路の実行時間も比較し、速度向上の有無を報告してください。
+- 未解決点、または他の観点からの速度向上案

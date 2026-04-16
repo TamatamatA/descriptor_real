@@ -1,0 +1,28 @@
+最初に `CLAUDE.md` を読んでください。まだ実装はしないでください。
+
+このプロジェクトでは `descriptor_all_R.cpp` をもとに、推論専用の高速化版 `descriptor_all2_R.cpp` を作ります。
+ただし、既存スクリプト `train_Cul_F2_R.py` と `infer_Cul_F2_R.py` は現在の作業ディレクトリ構成と参照パスがずれている可能性があります。
+
+まず調査してください。
+
+対象:
+- `src/descriptor_all_R.cpp`
+- `train_Cul_F2_R.py`
+- `infer_Cul_F2_R.py`
+- `build/build_descriptor_R.py`
+
+報告してほしい内容:
+1. pybind エントリポイント
+2. `kfeat` が生成・反復される場所
+3. force feature 行列 `(3N, N_feat)` が組み立てられる場所
+4. `coef[kfeat]` を融合できる最も早い安全な位置
+5. `train_Cul_F2_R.py` における係数の保存形式・キー名・shape
+6. `infer_Cul_F2_R.py` における旧推論の energy / force 計算手順
+7. 現ディレクトリ構成とずれている参照パス
+8. 最小変更での実装計画
+9. 速度面で支配的なボトルネック候補も報告してください
+
+制約:
+- まだファイルは編集しない
+- ロジック変更と大規模なパス変更を同時にしない
+- 数式・順序・符号規約を変えない
