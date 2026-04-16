@@ -1,0 +1,419 @@
+datasets:
+- dataset_id: train2
+  structures:
+  - id:   0
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_001.xml
+  - id:   1
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_002.xml
+  - id:   2
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_003.xml
+  - id:   3
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_004.xml
+  - id:   4
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_005.xml
+  - id:   5
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_006.xml
+  - id:   6
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_007.xml
+  - id:   7
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_008.xml
+  - id:   8
+    file: MLP_training_set/scale_0.90_disp_0.1/vasprun_009.xml
+  - id:   9
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun.xml
+  - id:   10
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_001.xml
+  - id:   11
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_002.xml
+  - id:   12
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_003.xml
+  - id:   13
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_004.xml
+  - id:   14
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_005.xml
+  - id:   15
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_006.xml
+  - id:   16
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_007.xml
+  - id:   17
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_008.xml
+  - id:   18
+    file: MLP_training_set/scale_0.90_disp_0.3/vasprun_009.xml
+  - id:   19
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun.xml
+  - id:   20
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_001.xml
+  - id:   21
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_002.xml
+  - id:   22
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_003.xml
+  - id:   23
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_004.xml
+  - id:   24
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_005.xml
+  - id:   25
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_006.xml
+  - id:   26
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_007.xml
+  - id:   27
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_008.xml
+  - id:   28
+    file: MLP_training_set/scale_0.90_disp_0.5/vasprun_010.xml
+  - id:   29
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun.xml
+  - id:   30
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_001.xml
+  - id:   31
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_002.xml
+  - id:   32
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_003.xml
+  - id:   33
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_004.xml
+  - id:   34
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_005.xml
+  - id:   35
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_006.xml
+  - id:   36
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_007.xml
+  - id:   37
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_008.xml
+  - id:   38
+    file: MLP_training_set/scale_0.95_disp_0.1/vasprun_010.xml
+  - id:   39
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun.xml
+  - id:   40
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_001.xml
+  - id:   41
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_002.xml
+  - id:   42
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_003.xml
+  - id:   43
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_004.xml
+  - id:   44
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_005.xml
+  - id:   45
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_006.xml
+  - id:   46
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_007.xml
+  - id:   47
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_009.xml
+  - id:   48
+    file: MLP_training_set/scale_0.95_disp_0.3/vasprun_010.xml
+  - id:   49
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun.xml
+  - id:   50
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_001.xml
+  - id:   51
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_002.xml
+  - id:   52
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_003.xml
+  - id:   53
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_004.xml
+  - id:   54
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_005.xml
+  - id:   55
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_006.xml
+  - id:   56
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_007.xml
+  - id:   57
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_009.xml
+  - id:   58
+    file: MLP_training_set/scale_0.95_disp_0.5/vasprun_010.xml
+  - id:   59
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun.xml
+  - id:   60
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_001.xml
+  - id:   61
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_002.xml
+  - id:   62
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_003.xml
+  - id:   63
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_004.xml
+  - id:   64
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_005.xml
+  - id:   65
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_006.xml
+  - id:   66
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_008.xml
+  - id:   67
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_009.xml
+  - id:   68
+    file: MLP_training_set/scale_0.98_disp_0.1/vasprun_010.xml
+  - id:   69
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun.xml
+  - id:   70
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_001.xml
+  - id:   71
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_002.xml
+  - id:   72
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_003.xml
+  - id:   73
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_004.xml
+  - id:   74
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_005.xml
+  - id:   75
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_006.xml
+  - id:   76
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_008.xml
+  - id:   77
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_009.xml
+  - id:   78
+    file: MLP_training_set/scale_0.98_disp_0.3/vasprun_010.xml
+  - id:   79
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun.xml
+  - id:   80
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_001.xml
+  - id:   81
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_002.xml
+  - id:   82
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_003.xml
+  - id:   83
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_004.xml
+  - id:   84
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_005.xml
+  - id:   85
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_007.xml
+  - id:   86
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_008.xml
+  - id:   87
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_009.xml
+  - id:   88
+    file: MLP_training_set/scale_0.98_disp_0.5/vasprun_010.xml
+  - id:   89
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun.xml
+  - id:   90
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_001.xml
+  - id:   91
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_002.xml
+  - id:   92
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_003.xml
+  - id:   93
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_004.xml
+  - id:   94
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_005.xml
+  - id:   95
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_007.xml
+  - id:   96
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_008.xml
+  - id:   97
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_009.xml
+  - id:   98
+    file: MLP_training_set/scale_1.00_disp_0.1/vasprun_010.xml
+  - id:   99
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun.xml
+  - id:   100
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_001.xml
+  - id:   101
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_002.xml
+  - id:   102
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_003.xml
+  - id:   103
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_004.xml
+  - id:   104
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_006.xml
+  - id:   105
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_007.xml
+  - id:   106
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_008.xml
+  - id:   107
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_009.xml
+  - id:   108
+    file: MLP_training_set/scale_1.00_disp_0.3/vasprun_010.xml
+  - id:   109
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun.xml
+  - id:   110
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_001.xml
+  - id:   111
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_002.xml
+  - id:   112
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_003.xml
+  - id:   113
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_005.xml
+  - id:   114
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_006.xml
+  - id:   115
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_007.xml
+  - id:   116
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_008.xml
+  - id:   117
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_009.xml
+  - id:   118
+    file: MLP_training_set/scale_1.00_disp_0.5/vasprun_010.xml
+  - id:   119
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun.xml
+  - id:   120
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_001.xml
+  - id:   121
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_002.xml
+  - id:   122
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_003.xml
+  - id:   123
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_005.xml
+  - id:   124
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_006.xml
+  - id:   125
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_007.xml
+  - id:   126
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_008.xml
+  - id:   127
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_009.xml
+  - id:   128
+    file: MLP_training_set/scale_1.02_disp_0.1/vasprun_010.xml
+  - id:   129
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun.xml
+  - id:   130
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_001.xml
+  - id:   131
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_002.xml
+  - id:   132
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_004.xml
+  - id:   133
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_005.xml
+  - id:   134
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_006.xml
+  - id:   135
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_007.xml
+  - id:   136
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_008.xml
+  - id:   137
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_009.xml
+  - id:   138
+    file: MLP_training_set/scale_1.02_disp_0.3/vasprun_010.xml
+  - id:   139
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun.xml
+  - id:   140
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_001.xml
+  - id:   141
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_002.xml
+  - id:   142
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_004.xml
+  - id:   143
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_005.xml
+  - id:   144
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_006.xml
+  - id:   145
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_007.xml
+  - id:   146
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_008.xml
+  - id:   147
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_009.xml
+  - id:   148
+    file: MLP_training_set/scale_1.02_disp_0.5/vasprun_010.xml
+  - id:   149
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun.xml
+  - id:   150
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_001.xml
+  - id:   151
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_003.xml
+  - id:   152
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_004.xml
+  - id:   153
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_005.xml
+  - id:   154
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_006.xml
+  - id:   155
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_007.xml
+  - id:   156
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_008.xml
+  - id:   157
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_009.xml
+  - id:   158
+    file: MLP_training_set/scale_1.05_disp_0.1/vasprun_010.xml
+  - id:   159
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun.xml
+  - id:   160
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_001.xml
+  - id:   161
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_003.xml
+  - id:   162
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_004.xml
+  - id:   163
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_005.xml
+  - id:   164
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_006.xml
+  - id:   165
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_007.xml
+  - id:   166
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_008.xml
+  - id:   167
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_009.xml
+  - id:   168
+    file: MLP_training_set/scale_1.05_disp_0.3/vasprun_010.xml
+  - id:   169
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun.xml
+  - id:   170
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_002.xml
+  - id:   171
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_003.xml
+  - id:   172
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_004.xml
+  - id:   173
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_005.xml
+  - id:   174
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_006.xml
+  - id:   175
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_007.xml
+  - id:   176
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_008.xml
+  - id:   177
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_009.xml
+  - id:   178
+    file: MLP_training_set/scale_1.05_disp_0.5/vasprun_010.xml
+  - id:   179
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun.xml
+  - id:   180
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_002.xml
+  - id:   181
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_003.xml
+  - id:   182
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_004.xml
+  - id:   183
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_005.xml
+  - id:   184
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_006.xml
+  - id:   185
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_007.xml
+  - id:   186
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_008.xml
+  - id:   187
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_009.xml
+  - id:   188
+    file: MLP_training_set/scale_1.10_disp_0.1/vasprun_010.xml
+  - id:   189
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_001.xml
+  - id:   190
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_002.xml
+  - id:   191
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_003.xml
+  - id:   192
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_004.xml
+  - id:   193
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_005.xml
+  - id:   194
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_006.xml
+  - id:   195
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_007.xml
+  - id:   196
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_008.xml
+  - id:   197
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_009.xml
+  - id:   198
+    file: MLP_training_set/scale_1.10_disp_0.3/vasprun_010.xml
+  - id:   199
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_001.xml
+  - id:   200
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_002.xml
+  - id:   201
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_003.xml
+  - id:   202
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_004.xml
+  - id:   203
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_005.xml
+  - id:   204
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_006.xml
+  - id:   205
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_007.xml
+  - id:   206
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_008.xml
+  - id:   207
+    file: MLP_training_set/scale_1.10_disp_0.5/vasprun_009.xml
